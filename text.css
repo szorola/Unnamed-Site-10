@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    width: 960px;
+    padding: 10px;
+    margin: 0px auto;
+    margin-top: 150px;
+    background: white;
+    border: 2px solid black;
+
+}
+
+*{
+    padding: 0px auto;
+    margin: 0px auto;
+    font-family: timesnewroman;
+}
+
+.header__bar figure {
+    display: inline-block;
+    margin: 0px 10px;
+
+}
+
+.header__bar h1{
+    display: inline-block;
+    color: red;
+    text-transform: uppercase;
+}
+
+.header__bar{
+    background: linear-gradient(green,white);
+    border: 2px dashed goldenrod;
+    padding: 20px;
+}
